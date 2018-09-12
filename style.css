@@ -3,7 +3,7 @@
 	 padding: 20px;
 	 min-height:200px;
  }
- #subject, #recently_closed_tabs{
+ .subject, .recently_closed_tabs{
 	 border-bottom:1px solid;
 	 border-color:#f44336!important;
 	 margin-bottom:20px;
@@ -22,23 +22,33 @@
 	 margin-top:80px;
 	 margin-bottom:40px;
  }
-.linkButton{
-	 border: none;
+ .closed_detail_list, .closed_detail{
+	 font-size:10px;
+ }
+.closed_div, .closed_detail title{
+	margin-left:10px
+}
+.closed_detail.url{
+	margin-left:20px;
+}
+ #closed_window, #closed_tab{
+	 display: none;
+ }
+.linkButton, .delete_button, .open_closed, .closed_detail_list, .closed_detail{
+	border: none;
 	 background-color: inherit;
 	 cursor: pointer;
 	 display: inline-block;
-	 font-size = 12px;
+}
+.linkButton{
+	 font-size:12px;
  }
  .linkButton:hover{
 	 text-decoration:underline;
 	 font-weight:bold;
  }
  .delete_button{
-	 border: none;
-	 background-color: inherit;
-	 cursor: pointer;
-	 display: inline-block;
-	 font-size = 5px;
+	 font-size:10px;
 	 
  }
  .delete_button:hover{

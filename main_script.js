@@ -145,9 +145,4 @@ document.querySelector('#group_name_button').addEventListener('click', function(
 	}
 })
 
-/*
-chrome.sessions.getRecentlyClosed(function(closedTabs){
-	console.log(closedTabs);
-});
-*/
 

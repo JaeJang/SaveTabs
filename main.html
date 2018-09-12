@@ -12,7 +12,7 @@
 	<link rel="stylesheet" href="style.css">
   </head>
   <body>
-		<div id="subject">
+		<div class="subject">
 			<h2>Save Your Tabs</h2>
 		</div>
 		<div id="text_button">
@@ -23,14 +23,23 @@
 		</div>
 		<div id="name_validate"><h6>Nothing has been entered or there is same name</h4></div>
 		<div id="contents"></div>
-		<!--<div id="recently_closed_tabs">
+		<div class="subject">
 			<h3>Recently closed tabs</h3>
-			<div id="closed_tabs"></div>
-		</div>-->
+		</div	>
+			<div>
+				<button id="Window" class="open_closed">Window(0)</button>
+				<div id="closed_window"></div>
+			</div>
+			<div> 
+				<button id="Tab" class="open_closed">Tab(0)</button>
+				<div id="closed_tab"></div>
+			</div>
+		
 			
 
 	<!-- Custom JavaScript -->
 	<script src="main_script.js"></script>
+	<script src="recentlyClosed.js"></script>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     
