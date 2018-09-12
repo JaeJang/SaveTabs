@@ -1,0 +1,77 @@
+ body{
+	 width: 400px;
+	 padding: 20px;
+	 min-height:200px;
+ }
+ #subject, #recently_closed_tabs{
+	 border-bottom:1px solid;
+	 border-color:#f44336!important;
+	 margin-bottom:20px;
+ }
+ #text_button{
+	 display:inline;
+ }
+ #name_validate{
+	 
+	 color:red;
+	 font-style:italic;
+	 display:none;s
+ }
+ #contents{
+	 display:block;
+	 margin-top:80px;
+	 margin-bottom:40px;
+ }
+.linkButton{
+	 border: none;
+	 background-color: inherit;
+	 cursor: pointer;
+	 display: inline-block;
+	 font-size = 12px;
+ }
+ .linkButton:hover{
+	 text-decoration:underline;
+	 font-weight:bold;
+ }
+ .delete_button{
+	 border: none;
+	 background-color: inherit;
+	 cursor: pointer;
+	 display: inline-block;
+	 font-size = 5px;
+	 
+ }
+ .delete_button:hover{
+	 font-weight:bold;
+ }
+
+#text_button input[type=text] {
+    padding: 10px;
+    font-size: 13px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1;
+}
+
+#text_button button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 13px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+}
+
+#text_button button:hover {
+    background: #0b7dda;
+}
+
+/*form.naming_form::after {
+    content: "";
+    clear: both;
+    display: table;
+}*/
